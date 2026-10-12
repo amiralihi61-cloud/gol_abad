@@ -1,19 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gol Abad</title>
+    <meta name="description" content="Spotify-inspired static music site for personal listening." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <button id="brand-button" class="brand" type="button">Gol Abad</button>
 
-<html lang="fa">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web</title>
-</head>
-<style>
+      <div class="search-wrap">
+        <input
+          id="search-input"
+          type="search"
+          placeholder="Search artists or songs"
+          aria-label="Search artists or songs"
+        />
+        <div id="search-results" class="search-results" hidden></div>
+      </div>
 
-</style>
+      <button id="shuffle-all" class="action-button" type="button">Shuffle All</button>
+    </header>
 
-<body>
-<center><font size="32">به سایت گل آباد خوش آمدید</font></center>
-    <canter><table border="1px"><tr><td>قرض حسام </td><td>0000</td></tr></table></center>
-</body>
+    <main class="page-shell">
+      <section id="home-view" class="view">
+        <div class="section-heading">
+          <h1>Featured Artists</h1>
+        </div>
+        <div id="artists-grid" class="artists-grid" aria-live="polite"></div>
+      </section>
 
+      <section id="artist-view" class="view" hidden>
+        <button id="back-home" class="back-link" type="button">← Back to artists</button>
+
+        <div class="artist-header">
+          <img id="artist-cover" class="artist-cover" src="" alt="Artist cover" />
+          <div class="artist-promo">
+            <p class="eyebrow">Artist</p>
+            <h2 id="artist-name">Artist Name</h2>
+            <p id="artist-song-count" class="muted"></p>
+            <button id="artist-shuffle" class="action-button" type="button">Shuffle Artist</button>
+          </div>
+        </div>
+
+        <div class="song-panel">
+          <h3>Popular</h3>
+          <ol id="artist-songs" class="song-list"></ol>
+        </div>
+      </section>
+    </main>
+
+    <footer class="player-bar">
+      <div class="player-now">
+        <img id="player-cover" src="" alt="Current track cover" class="player-cover" />
+        <div class="player-text">
+          <div id="player-title">Select a song</div>
+          <div id="player-artist" class="muted">—</div>
+        </div>
+      </div>
+
+      <div class="player-controls">
+        <div class="transport">
+          <button id="prev-button" class="icon-button" type="button" aria-label="Previous track">⏮</button>
+          <button id="play-button" class="play-button" type="button" aria-label="Play or pause">▶</button>
+          <button id="next-button" class="icon-button" type="button" aria-label="Next track">⏭</button>
+        </div>
+
+        <div class="progress-row">
+          <span id="time-current">0:00</span>
+          <input id="progress-bar" type="range" min="0" max="100" value="0" aria-label="Playback progress" />
+          <span id="time-duration">0:00</span>
+        </div>
+      </div>
+
+      <div class="volume-wrap">
+        <span aria-hidden="true">🔊</span>
+        <input id="volume-control" type="range" min="0" max="1" step="0.01" value="1" aria-label="Volume" />
+      </div>
+    </footer>
+
+    <script src="app.js" type="module"></script>
+  </body>
 </html>
-
-
-
