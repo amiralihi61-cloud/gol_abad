@@ -1,0 +1,1 @@
+frequency=262;duration=3.6;wave=triangle;volume=0.43;

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="Arman Nouri cover art">
+  <rect width="300" height="300" fill="#221b12"/>
+  <circle cx="150" cy="150" r="120" fill="#FFB703"/>
+  <path d="M76 90 h148 v40 h-38 v80 h-36 v-80 h-74 z" fill="#fff2da" opacity="0.9"/>
+  <circle cx="150" cy="150" r="16" fill="#513311" opacity="0.8"/>
+</svg>

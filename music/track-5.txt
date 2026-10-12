@@ -1,0 +1,1 @@
+frequency=174;duration=4;wave=sawtooth;volume=0.36;

@@ -1,0 +1,1 @@
+frequency=247;duration=3.2;wave=sine;volume=0.42;

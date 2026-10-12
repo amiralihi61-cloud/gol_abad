@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="Mina Parvaneh cover art">
+  <rect width="300" height="300" fill="#1b1026"/>
+  <circle cx="150" cy="150" r="120" fill="#F46B8A"/>
+  <circle cx="150" cy="150" r="72" fill="#f9d7ef" opacity="0.88"/>
+  <path d="M87 180 c38-58 88-87 126-87 c11 0 22 2 32 6 c-21 20-39 43-53 70 c-17 31-28 61-29 90 c-24-16-53-40-76-79z" fill="#341b46" opacity="0.75"/>
+</svg>

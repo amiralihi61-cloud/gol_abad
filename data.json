@@ -1,0 +1,34 @@
+{
+  "artists": [
+    {
+      "id": "artist-1",
+      "name": "Sina Farhadi",
+      "cover": "covers/artist-1.svg"
+    },
+    {
+      "id": "artist-2",
+      "name": "Mina Parvaneh",
+      "cover": "covers/artist-2.svg"
+    },
+    {
+      "id": "artist-3",
+      "name": "Arman Nouri",
+      "cover": "covers/artist-3.svg"
+    },
+    {
+      "id": "artist-4",
+      "name": "Leila Sadeghi",
+      "cover": "covers/artist-4.svg"
+    }
+  ],
+  "songs": [
+    { "id": "song-1", "title": "Golden Hour", "artistId": "artist-1", "audioPath": "music/track-1.txt" },
+    { "id": "song-2", "title": "Night Drive", "artistId": "artist-1", "audioPath": "music/track-2.txt" },
+    { "id": "song-3", "title": "Velvet Echoes", "artistId": "artist-2", "audioPath": "music/track-3.txt" },
+    { "id": "song-4", "title": "Moonlit Steps", "artistId": "artist-2", "audioPath": "music/track-4.txt" },
+    { "id": "song-5", "title": "Afterglow", "artistId": "artist-3", "audioPath": "music/track-5.txt" },
+    { "id": "song-6", "title": "Quiet Harbor", "artistId": "artist-3", "audioPath": "music/track-6.txt" },
+    { "id": "song-7", "title": "Paper Stars", "artistId": "artist-4", "audioPath": "music/track-7.txt" },
+    { "id": "song-8", "title": "City Lights", "artistId": "artist-4", "audioPath": "music/track-8.txt" }
+  ]
+}
